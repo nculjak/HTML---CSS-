@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+
+body{
+    font-family: 'Open Sans','Helvetica' ,'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: white;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+
+button.btn{
+    margin: 0 auto;
+    background-color: #9acd32;
+    color: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size:18px ;
+    padding: 14px 30px;
+    border: 1px solid #9acd32 !important;
+    display: flex;
+}
+
+button.btn:hover{
+    background-color: white;
+    color: #9acd32;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*     Layout    */
+
+
+/* Styling navigation */
+
+.navbar .navbar-brand{
+    text-transform: uppercase;
+    color: #9acd32;
+    font-size: 17px;
+    margin-top: 2px;
+}
+
+.navbar .navbar-toggler span{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar .navbar-toggler{
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+    margin-top: -2px;
+}
+
+/* Styling header */
+
+.main-header {
+    background-image:url(../css/images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 70px;
+
+}
+
+.main-header .main-header__content{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.main-header .main-header__content h1{
+    color: white;
+    font-size: 50px;
+}
+
+.main-header .main-header__content p{
+    line-height: 1.5;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+/* Styling  Intro section */
+
+.intro{
+    background-color: #9acd32;
+    color: white;
+    text-align: center;
+}
+
+.intro .container .row{
+    padding: 60px 0;
+}
+
+.intro .container .row h2{
+    padding-top: 8px;
+    font-size: 23px;
+    line-height: 1.1;
+}
+
+.intro .text-muted{
+    color: rgba(255, 255, 255, .7) !important;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+
+/* Styling Content section */
+
+.content {
+    padding: 100px 0;
+}
+
+.content .img-circle {
+    border-radius: 50%;
+}
+
+.content .content__section-header{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.content .lead{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+/* Styling Content 2 section */
+
+.content-2{
+    background-color: #222;
+    color: #fff;
+    padding:100px 0;
+}
+
+
+.content-2 .content-2__section-header{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-2 .text-muted{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: rgba(255, 255, 255, .7) !important;
+
+}
+
+.content-2 .btn{
+    background-color: rgba(255, 255, 255, .7);
+    color: #222;
+    margin-left: 0px;
+}
+
+.content-2 .img-circle{
+    border-radius: 50%;
+}
+
+/* Styling Promotion section */
+
+.promotion .container-fluid{
+    padding: 0;
+
+}
+
+.promotion .container-fluid article{
+    padding-left: 0;
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.promotion .item-1{
+    background-image: url(../css/images/writing.jpg);
+}
+
+.promotion .item-2{
+    background-image: url(../css/images/concert.jpg);
+}
+
+.promotion .item-3{
+    background-image: url(./images/pencil_sharpener.jpg);
+}
+
+.promotion .item-1,
+.promotion .item-2,
+.promotion .item-3{
+    background-size: cover;
+    background-position: center;
+}
+
+.promotion .promotion-item{
+    height: 200px;
+    text-align: center;
+    display: flex;
+}
+
+.promotion .promotion-item h3{
+    margin-top: 0;
+    color: #9acd32;
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 40px;
+    text-shadow: 0  0 40px #000;
+}
+
+.promotion .promotion-item:hover{
+    border: 10px solid rgba(255, 255, 255, .3);
+}
+
+/* Styling Content-3 Section */
+
+.content-3{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content-3 .content-3__section-header{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.content-3 .content-3__section-header svg{
+    margin: 0 auto;
+}
+
+.content-3 .lead{
+    font-size: 15px;
+    line-height: 1.4;
+    color: #6c757d;
+
+}
+
+/* Styling Footer Section */
+
+.main-footer{
+    text-align: center;
+}
+
+.main-footer .main-footer__contact{
+    background-color: #9acd32;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.main-footer .main-footer__contact .main-footer__section-heading{
+    font-size: 30px;
+}
+
+.main-footer .main-footer__contact p{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.main-footer .main-footer__contact p svg{
+    margin: 0 auto;
+}
+
+.main-footer .main-footer__info{
+    font-size: 16px;
+    padding: 50px 0;
+    font-weight: bold;
+}
+
+
+/* Media Query */
+
+
+@media screen and (min-width:768px) {
+    .navbar{
+        padding-top: 5px;
+        padding-bottom: 1px;
+    }
+    .navbar .navbar-nav{
+        margin-top: 1px;
+    }
+
+    .main-header{
+        padding-top: 210px;
+    }
+    .main-header .main-header__content{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .main-header .main-header__content h1{
+        font-size:100px;
+        line-height: 1.1;
+        margin-top: 25px;
+    }
+
+    .main-header .main-header__content p{
+        font-size: 18px;
+    }
+
+    .main-header .btn {
+        margin-top: 50px;
+        margin-bottom: 195px;
+
+    }
+
+    .content .lead{
+        font-size: 20px;
+    }
+
+    .content .btn{
+        margin-left: 0;
+    }
+
+    .content-2 .text-muted{
+        font-size: 20px ;
+    }
+
+    .content-3 .lead{
+        font-size: 20px;
+    }
+   
+}
+
+@media screen and (min-width:992px) {
+    .main-footer .main-footer__contact .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
